@@ -1,0 +1,30 @@
+.header__list-link{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 78px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+
+ }
+
+ @media (max-width: 767px){
+    .header__list-link{
+        width: 62px;
+        }
+}
+
+@media (max-width: 425px){
+    .header__list-link{
+        width: 62px;
+    }
+
+}
+
+@media (max-width: 260px){
+    .header__list-link{
+        width: 42px;
+    }
+
+}

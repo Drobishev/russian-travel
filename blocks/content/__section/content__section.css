@@ -1,0 +1,19 @@
+.content__section{
+    margin: 0 auto;
+    margin-bottom: 92px;
+    box-sizing: border-box;
+
+}
+@media (max-width: 1023px){
+    .content__section{
+        margin-bottom: 88px;
+    }
+
+}
+
+@media (max-width: 767px){
+    .content__section{
+        margin-bottom: 64px;
+    }
+
+}
