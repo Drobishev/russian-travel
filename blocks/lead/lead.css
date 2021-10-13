@@ -1,5 +1,5 @@
 .lead{
-    width: calc(100% - 296px);   
+    width: calc(100% - 296px);
     display: flex;
     flex-direction: column;
     align-items: center;
