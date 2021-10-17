@@ -4,22 +4,22 @@
     <meta charset="UTF-8">    
     <link rel="stylesheet" href="./pages/index.css">    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Научиться учиться</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <title>Путешествие по России</title>
+    <meta name="description" content="Путешествие по России">
+    <meta name="keywords" content="Путешествие по России">
     <meta name="author" content="Дробышев Александр">
   </head>
   
-  <body>
+  <body class="root">
     <div class="page">
       <header class="header page__header">
         <a class="header__logo" href="#" target="_blank"><img class="header__logo" src="./images/header-logo.svg" alt="логотип">
         </a>
         <ul class="header__list-link">
-          <li class="header__lang-link">
-            <a class="header__lang-link"  href="#">Ru</a>
+          <li>
+            <a class="header__lang-link header__lang-link_active"  href="#">Ru</a>
           </li>
-          <li class="header__lang-link">
+          <li>
             <a class="header__lang-link" href="#">En</a>
           </li>
   
@@ -42,20 +42,20 @@
           </p>
           
           <ul class="intro__list">
-            <li class="intro__list-text">
-              <p class="intro__list-text">Часовых поясов <span class="intro__list-text intro__list-text_weight_norm">11</span> </p>
+            <li class="intro__list-item">
+              <p class="intro__list-text">Часовых поясов <span class="intro__list-number">11</span> </p>
             </li>
-            <li class="intro__list-text">
-              <p class="intro__list-text">Объектов природного наследия ЮНЕСКО <span class="intro__list-text intro__list-text_weight_norm">12</span></p>              
+            <li class="intro__list-item">
+              <p class="intro__list-text">Объектов природного наследия ЮНЕСКО <span class="intro__list-number">12</span></p>              
             </li>
-            <li class="intro__list-text">
-              <p class="intro__list-text">Объектов культурного наследия ЮНЕСКО <span class="intro__list-text intro__list-text_weight_norm">16</span></p>              
+            <li class="intro__list-item">
+              <p class="intro__list-text">Объектов культурного наследия ЮНЕСКО <span class="intro__list-number">16</span></p>              
             </li>
-            <li class="intro__list-text">
-              <p class="intro__list-text">Природных заповедников <span class="intro__list-text intro__list-text_weight_norm">105</span></p>              
+            <li class="intro__list-item">
+              <p class="intro__list-text">Природных заповедников <span class="intro__list-number">105</span></p>              
             </li>
-            <li class="intro__list-text">
-              <p class="intro__list-text">Аэропортов <span class="intro__list-text intro__list-text_weight_norm">241</span></p>              
+            <li class="intro__list-item">
+              <p class="intro__list-text">Аэропортов <span class="intro__list-number">241</span></p>              
             </li>
   
           </ul>
@@ -84,7 +84,7 @@
           <div class="place">
             <h2 class="place__title">Куршская коса</h2>
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <p class="place__url-heading">url</p>
               <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
             </div>
             <img class="place__image" src="./images/place-kosa.jpg" alt="Куршская коса">
@@ -101,7 +101,7 @@
           <div class="place">
             <h2 class="place__title">Кольский</h2>
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <p class="place__url-heading">url</p>
               <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
             </div>
             <img class="place__image" src="./images/place-kolsky.jpg" alt="Кольский">
@@ -119,7 +119,7 @@
           <div class="place">
             <h2 class="place__title">Алтай</h2>
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <p class="place__url-heading">url</p>
               <a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">Facebook</a>
             </div>
             <img class="place__image" src="./images/place-altai.jpg" alt="Алтай">
@@ -133,7 +133,7 @@
           <div class="place">
             <h2 class="place__title">Зимний Байкал</h2>
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <p class="place__url-heading">url</p>
               <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">https://vk.com/baikalmile</a>
             </div>
             <img class="place__image" src="./images/place-winter-baikal.jpg" alt="Байкал">
@@ -148,7 +148,7 @@
           <div class="place">
             <h2 class="place__title">Карелия</h2>
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <p class="place__url-heading">url</p>
               <a class="place__link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
             </div>
             <img class="place__image" src="./images/place-karelia.jpg" alt="Карелия">
@@ -162,8 +162,10 @@
         </section>        
   
         <section class="cover section content__section">
-          <h2 class="cover__title">До Байкала «на&#160;собаках»</h2>
-          <p class="cover__subtitle">По&nbsp;мотивам учебной темы о&nbsp;Транссибе &mdash; путешествие от&nbsp;столицы до&nbsp;Байкала на&nbsp;электричках.</p>
+          <a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+            <h2 class="cover__title">До Байкала «на&#160;собаках»</h2>
+            <p class="cover__subtitle">По&nbsp;мотивам учебной темы о&nbsp;Транссибе &mdash; путешествие от&nbsp;столицы до&nbsp;Байкала на&nbsp;электричках.</p>
+          </a>
   
   
         </section>
@@ -179,7 +181,7 @@
           <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
           <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
         </nav>
-        <p class="footer__copiright">© 2020. Дробышев Александр</p>
+        <p class="footer__copyright">&copy; 2020. Дробышев Александр</p>
         
       </footer>
 

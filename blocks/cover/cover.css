@@ -1,11 +1,11 @@
 .cover{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
+    align-items: stretch;
     width: calc(100% - 96px);
     min-height: 740px;
     background-image: url(../../images/cover-trains.jpg);
+    background-position: center;
     background-size: cover;
     cursor: pointer;
     position: relative;
@@ -48,5 +48,15 @@
 .cover:hover::before{
     opacity: 0.8;
     transition: opacity 3s ease;
+}
+
+.cover__overlay{
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
